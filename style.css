@@ -35,3 +35,11 @@ body{
     width: 401px;
     height: 25px;
 }
+.senha{
+    margin-top: 20px;
+}
+#password-input{
+    margin-top: 10px;
+    width: 401px;
+    height: 25px;
+}
