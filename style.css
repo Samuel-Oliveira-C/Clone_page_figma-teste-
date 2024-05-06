@@ -8,10 +8,13 @@ body{
 .espaco-formulario{
     display: flex;
     justify-content: flex-start;
-    margin-left: 42px;
-    margin-top: 42px;
     margin-right: 850px;
     background-color: white;
+
+}
+.espacamento-form{
+    margin-left: 42px;
+    margin-top: 42px;
 
 }
 .cabecario h1{
