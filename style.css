@@ -62,4 +62,22 @@ body{
     color: white;
     width: 401px;
     height: 25px;
+    margin-bottom: 50px;
+}
+.login-com-outros{
+    display: flex;
+    justify-content: flex-start;
+}
+.tirar-borda{
+    width: 401px;;
+    display: flex;
+    border-right: none;
+    border-bottom: none;
+    border-left: none;
+    justify-content: center;
+
+}
+.alinhar-centro{
+    display: flex;
+    text-align: center;
 }
