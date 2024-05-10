@@ -18,7 +18,7 @@ body{
 .espacamento-form{
     margin-left: 42px;
     margin-top: 42px;
-
+    height: 742.4px;
 }
 .cabecario h1{
     font-family: 'open-sans';
@@ -69,15 +69,35 @@ body{
     justify-content: flex-start;
 }
 .tirar-borda{
-    width: 401px;;
+    width: 401px;
     display: flex;
     border-right: none;
     border-bottom: none;
     border-left: none;
     justify-content: center;
+    margin-bottom: 10px;
 
 }
 .alinhar-centro{
     display: flex;
     text-align: center;
+}
+.alinharbotao{
+    display: flex;
+    justify-content: flex-start;
+    margin-bottom: 10px;
+}
+.botao-login{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    width: 401px;
+    height: 50px;
+}
+.botao-login a{
+    text-decoration: none;
+}
+.final-Container{
+    margin-top: 60px;
 }
