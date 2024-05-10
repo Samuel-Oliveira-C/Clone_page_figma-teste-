@@ -3,7 +3,7 @@
 }
 body{
     margin: 0px;
-    background-color: black;
+    background: url("Icons/pexels-pixabay-51191.jpg");
 }
 .espaco-formulario{
     display: flex;
@@ -48,11 +48,15 @@ body{
     margin-bottom: 10px;
 }
 .area-check-forgot{
+    margin-bottom: 35px;
+    width: 401px;
+}
+.area-respo{
     display: flex;
     flex-direction: row;
-    justify-content: space-around;
-    margin-bottom: 35px;
+    justify-content: space-between;
 }
+
 .botao-sign-in{
     display: flex;
     justify-content: flex-start;
