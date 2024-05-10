@@ -10,7 +10,10 @@ body{
     justify-content: flex-start;
     margin-right: 950px;
     background-color: white;
-
+}
+.espaco-formulario form{
+    background-color: white;
+    min-width: 480px;
 }
 .espacamento-form{
     margin-left: 42px;
@@ -40,6 +43,23 @@ body{
 }
 #password-input{
     margin-top: 10px;
+    width: 401px;
+    height: 25px;
+    margin-bottom: 10px;
+}
+.area-check-forgot{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-bottom: 35px;
+}
+.botao-sign-in{
+    display: flex;
+    justify-content: flex-start;
+}
+.botao-sign-in button{
+    background-color: #1B9EDE;
+    color: white;
     width: 401px;
     height: 25px;
 }
